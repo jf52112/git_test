@@ -2,7 +2,7 @@ package com.test;
 
 public class HelloWorld {
 	public static void main(String[] args) throws Exception {
-		String str="»¶Ó­Ê¹ÓÃgit";
-		System.out.println(str.getBytes("GBK"));
+		String str="è’‹é”‹";
+		System.out.println(str);
 	}
 }
