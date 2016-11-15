@@ -1,7 +1,8 @@
 package com.test;
 
 public class HelloWorld {
-	public static void main(String[] args) {
-		System.out.println("欢迎使用git");
+	public static void main(String[] args) throws Exception {
+		String str="欢迎使用git";
+		System.out.println(str.getBytes("GBK"));
 	}
 }
